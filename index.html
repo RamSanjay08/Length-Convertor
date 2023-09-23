@@ -8,16 +8,46 @@
 </head>
 <body>
   <section class="main-container">
-    <h1>Cm to Inchs</h1>
+    <h1>Length Covertor</h1>
+    <div class="main-input-div">
     <div class="inputdiv">
-    <input type="text" id="input" placeholder="length in cm">
+      <label for="length" class="label-length">From:</label>
+      <select name="length" id="length">
+        <option value="millimeter">Millimeter</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="decimeter">Decimeter</option>
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="foot">Foot</option>
+        <option value="inch">Inch</option>
+        <option value="mile">Mile</option>
+        <option value="yard">Yard</option>
+      </select>
+    <input type="text" id="input" placeholder="Enter your Value">
     </div>
-    <div>
+
+    <div class="inputdiv">
+      <label for="length" class="label-length">To:</label>
+      <select name="length" id="length">
+        <option value="millimeter">Millimeter</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="decimeter">Decimeter</option>
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="foot">Foot</option>
+        <option value="inch">Inch</option>
+        <option value="mile">Mile</option>
+        <option value="yard">Yard</option>
+      </select>
+    <input type="text" id="input" placeholder="Enter your Value">
+    </div>
+  </div>
+
+    <!-- <div>
       <button type="submit" class="inch-btn">Convert to Inches</button>
       <button type="submit" class="meter-btn">Convert to Meters</button>
-    </div>
-    <div id="result">
-    </div>
+    </div> -->
+    <div id="result"></div>
   </section>
 
   <script src="./app.js">
