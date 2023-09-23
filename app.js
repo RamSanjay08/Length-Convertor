@@ -1,5 +1,5 @@
-let inchbtn = document.querySelector(".inch-btn")
 let abc = document.querySelector(".main-container h1");
+let inchbtn = document.querySelector(".inch-btn")
 let meterbtn = document.querySelector(".meter-btn");
 
 
@@ -18,12 +18,3 @@ function () {
   abc.textContent = meterVal
   }
 )
-
-millibtn.addEventListener('click' ,
-function () {
-  const cmVal = Number(document.getElementById("input").value)
-  const milliVal = cmVal*0.01
-  abc.textContent = milliVal
-  }
-)
-// console.log(document.querySelector(".main-container h1").textContent);
